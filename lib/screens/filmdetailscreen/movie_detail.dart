@@ -104,7 +104,7 @@ children: [
   
 ],
 ),
-SizedBox(height: 5,),
+SizedBox(height: 15,),
 //nut xem ngay
 SizedBox(
   width: 340,
