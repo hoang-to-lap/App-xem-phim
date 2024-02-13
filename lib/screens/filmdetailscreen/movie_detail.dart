@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:get/get.dart";
+import "package:movieapp/screens/watch_movie/watchmoviescreen.dart";
 class MovieDetail extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
@@ -111,7 +112,7 @@ SizedBox(
   child: ElevatedButton(
  
   onPressed: () {
-  
+Get.to(()=>WatchMovieScreen());
 },
 child: Text('Watch now', style: TextStyle(fontSize: 20),).paddingOnly(top: 15,bottom: 15),
 style: ButtonStyle(backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
